@@ -130,7 +130,7 @@ julia> Symbol(:var,'_',"sym")
 In the context of an expression, symbols are used to indicate access to variables; when an expression
 is evaluated, a symbol is replaced with the value bound to that symbol in the appropriate [scope](@ref scope-of-variables).
 
-Sometimes extra parentheses around the argument to `:` are needed to avoid ambiguity in parsing.:
+Sometimes extra parentheses around the argument to `:` are needed to avoid ambiguity in parsing:
 
 ```jldoctest
 julia> :(:)
